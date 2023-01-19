@@ -4,12 +4,10 @@ var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special = ["/", "~", "`", "!", "#", "$", "%", "^", "&", "*", "+", "=", "\", "-", ",];
 
 
-
-
-// Assignment Code
-
 var generateBtn = document.querySelector("#generate");
 
+   // loop through the options array
+    // pull out random values for the password
 var generatePassword = function (){
   var options = [];
 
@@ -76,22 +74,12 @@ var generatePassword = function (){
 
   return password;
 
+ 
 
 
-
-  // ask the user for lowercase
-  // if lowercase
-    // add all lowercase values to options array
-
-
-    // loop through the options array
-    // pull out random values for the password
+ 
 
 };
-
-
-
-
 
 // Write password to the #password input
 function writePassword() {
