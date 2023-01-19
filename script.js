@@ -60,6 +60,11 @@ var generatePassword = function (){
   }
   var passwordLength = window.prompt('How long do you want the password to be?');
 
+  if (passwordLength<8 || passwordLength>128) {
+    alert ("Password needs to be within 8 and 128 characters")
+    return;
+  }
+
   // check to make sure the user inputted a number and is greater than 8 and less than 128
   // check options.length is greater than 0
 
